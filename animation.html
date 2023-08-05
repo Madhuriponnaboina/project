@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+#madhu{
+
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.5;
+}
+
+        
+    </style>
+</head>
+<body>
+    <h>css animation</h>
+    <div></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, assumenda.</p>
+    <img src="https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?cs=srgb&dl=pexels-jacob-colvin-1761279.jpg&fm=jpg&_gl=1*c2wtpg*_ga*MTA3NTg5NzcxOC4xNjg5Mzk0MTc0*_ga_8JE65Q40S6*MTY4OTc0NzI2Ni41LjEuMTY4OTc0NzI3MC4wLjAuMA.." width="200" height="200">
+    <h1>css animation</h1>
+    <p id="madhu"></p>
+    
+</body>
+</html>
